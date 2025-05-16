@@ -48,7 +48,7 @@ def get_environment_config():
     else:
         # Executando localmente
         return {
-            'kafka_bootstrap': 'localhost:29092',  # Porto mapeado para o host
+            'kafka_bootstrap': 'localhost:29092',  # Porta mapeada para o host
             'kafka_for_pinot': 'kafka:9092',       # Nome do serviço para uso interno do Pinot
             'pinot_controller': 'http://localhost:9000',
             'pinot_broker': 'http://localhost:8099'
@@ -571,7 +571,7 @@ def main():
             # Processar mensagem recebida
             try:
                 # Kafka já está enviando para o Pinot baseado na configuração da tabela.
-                # Isso é apenas para logar que as mensagens estão sendo processadas
+                # Apenas para logar que as mensagens estão sendo processadas
                 contador += 1
                 if contador % 10 == 0:
                     logger.info(f"Processadas {contador} mensagens até o momento")

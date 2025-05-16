@@ -45,7 +45,7 @@ def processar_mensagem(msg_value):
     
     logger.info(f"Processando venda: {data_hora} - {categoria} - R$ {valor:.2f}")
     
-    # Aqui você pode adicionar lógica para:
+    # Aqui pode ser adicionada a lógica para:
     # - Validar os dados
     # - Transformar os dados (ETL)
     # - Armazenar em bancos de dados
