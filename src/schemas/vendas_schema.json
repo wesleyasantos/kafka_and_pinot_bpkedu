@@ -1,0 +1,82 @@
+{
+  "namespace": "com.exemplo.schema",
+  "type": "record",
+  "name": "Venda",
+  "fields": [
+    {
+      "name": "id_venda",
+      "type": "string",
+      "doc": "Identificador único da venda"
+    },
+    {
+      "name": "timestamp",
+      "type": "long",
+      "doc": "Timestamp da venda em milissegundos desde epoch"
+    },
+    {
+      "name": "data_hora",
+      "type": "string",
+      "doc": "Data e hora da venda em formato ISO"
+    },
+    {
+      "name": "id_cliente",
+      "type": "string",
+      "doc": "Identificador único do cliente"
+    },
+    {
+      "name": "nome_cliente",
+      "type": "string",
+      "doc": "Nome do cliente"
+    },
+    {
+      "name": "email_cliente",
+      "type": "string",
+      "doc": "Email do cliente"
+    },
+    {
+      "name": "produto",
+      "type": "string",
+      "doc": "Nome do produto vendido"
+    },
+    {
+      "name": "categoria",
+      "type": "string",
+      "doc": "Categoria do produto"
+    },
+    {
+      "name": "preco",
+      "type": "double",
+      "doc": "Preço unitário do produto"
+    },
+    {
+      "name": "quantidade",
+      "type": "int",
+      "doc": "Quantidade vendida"
+    },
+    {
+      "name": "valor_total",
+      "type": "double",
+      "doc": "Valor total da venda"
+    },
+    {
+      "name": "forma_pagamento",
+      "type": "string",
+      "doc": "Forma de pagamento utilizada"
+    },
+    {
+      "name": "loja",
+      "type": "string",
+      "doc": "Identificador da loja"
+    },
+    {
+      "name": "cidade",
+      "type": "string",
+      "doc": "Cidade onde ocorreu a venda"
+    },
+    {
+      "name": "estado",
+      "type": "string",
+      "doc": "Estado onde ocorreu a venda"
+    }
+  ]
+} 

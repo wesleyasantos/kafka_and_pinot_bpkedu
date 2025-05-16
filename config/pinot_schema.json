@@ -1,0 +1,34 @@
+{
+  "schemaName": "vendas",
+  "dimensionFieldSpecs": [
+    {"name": "id_venda", "dataType": "STRING"},
+    {"name": "id_cliente", "dataType": "STRING"},
+    {"name": "nome_cliente", "dataType": "STRING"},
+    {"name": "email_cliente", "dataType": "STRING"},
+    {"name": "produto", "dataType": "STRING"},
+    {"name": "categoria", "dataType": "STRING"},
+    {"name": "forma_pagamento", "dataType": "STRING"},
+    {"name": "loja", "dataType": "STRING"},
+    {"name": "cidade", "dataType": "STRING"},
+    {"name": "estado", "dataType": "STRING"}
+  ],
+  "metricFieldSpecs": [
+    {"name": "preco", "dataType": "DOUBLE"},
+    {"name": "quantidade", "dataType": "INT"},
+    {"name": "valor_total", "dataType": "DOUBLE"}
+  ],
+  "dateTimeFieldSpecs": [
+    {
+      "name": "timestamp",
+      "dataType": "LONG",
+      "format": "1:MILLISECONDS:EPOCH",
+      "granularity": "1:MILLISECONDS"
+    },
+    {
+      "name": "data_hora",
+      "dataType": "STRING",
+      "format": "1:DAYS:SIMPLE_DATE_FORMAT:yyyy-MM-dd'T'HH:mm:ss",
+      "granularity": "1:DAYS"
+    }
+  ]
+} 
