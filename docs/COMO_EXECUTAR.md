@@ -13,8 +13,8 @@ Este guia fornece instruções passo a passo para configurar e executar o pipeli
 ### 1. Clone o repositório (opcional)
 
 ```bash
-git clone [URL_DO_REPOSITORIO]
-cd [NOME_DA_PASTA]
+git clone https://github.com/wesleyasantos/kafka_and_pinot_bpkedu.git
+cd ["NOME DA PASTA"]
 ```
 
 ### 2. Instale as dependências Python
